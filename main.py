@@ -89,7 +89,7 @@ def greater(first_time, second_time):
         return True
     elif y[1] > x[1] and y[0] == x[0]:
         return True
-    elif y[2] > x[2] and y[1] == x[1] and y[0] == x[0]:
+    elif y[2] >= x[2] and y[1] == x[1] and y[0] == x[0]:
         return True
     else:
         return False
